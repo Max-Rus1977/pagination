@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+h1 {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.box-posts {
+  margin-top: 25px;
+}
+
+.post {
+  width: 60%;
+  margin: 15px auto 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid silver;
+  border-radius: 8px;
+}
+
+.post p {
+  margin-top: 10px;
+}
+
+.box-pagination {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  margin: 25px auto 45px auto;
+}
+
+.btn {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.btn + .btn {
+  margin-left: 10px;
+}
+
+.active {
+  background-color: blue;
+  font-weight: bold;
+  color: #fff;
+  border: 2px solid #e9d60c;
+}
+
+.buttonsPN {
+  width: 35px;
+  height: 35px;
+  background-color: aqua;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 50%;
+}
+
+.btn-prev {
+  float: left;
+  margin-right: 30px;
+}
+
+.btn-next {
+  float: right;
+  margin-left: 30px;
+}
